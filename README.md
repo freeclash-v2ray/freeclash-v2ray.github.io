@@ -1,4 +1,4 @@
-# Clash/V2ray免费节点 | 5月29日21.2M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐，安卓机场梯子  更新时间 2026-05-29 19:51:30
+# Clash/V2ray免费节点 | 5月29日22M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点节点推荐，安卓机场梯子  更新时间 2026-05-29 19:54:47
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freeclash-v2ray.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：

@@ -1,4 +1,4 @@
-# Clash/V2ray免费节点 | 5月29日22M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点节点推荐，安卓机场梯子  更新时间 2026-05-29 19:54:47
+# Clash/V2ray免费节点 | 5月31日21.6M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，安卓机场梯子  更新时间 2026-05-31 08:32:04
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freeclash-v2ray.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://freeclash-v2ray.github.io/uploads/2026/05/0-20260529.yaml
-- https://freeclash-v2ray.github.io/uploads/2026/05/1-20260529.yaml
-- https://freeclash-v2ray.github.io/uploads/2026/05/2-20260529.yaml
-- https://freeclash-v2ray.github.io/uploads/2026/05/3-20260529.yaml
-- https://freeclash-v2ray.github.io/uploads/2026/05/4-20260529.yaml
+- https://freeclash-v2ray.github.io/uploads/2026/05/0-20260531.yaml
+- https://freeclash-v2ray.github.io/uploads/2026/05/1-20260531.yaml
+- https://freeclash-v2ray.github.io/uploads/2026/05/2-20260531.yaml
+- https://freeclash-v2ray.github.io/uploads/2026/05/3-20260531.yaml
+- https://freeclash-v2ray.github.io/uploads/2026/05/4-20260531.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://freeclash-v2ray.github.io/uploads/2026/05/0-20260529.txt
-- https://freeclash-v2ray.github.io/uploads/2026/05/1-20260529.txt
-- https://freeclash-v2ray.github.io/uploads/2026/05/2-20260529.txt
-- https://freeclash-v2ray.github.io/uploads/2026/05/3-20260529.txt
-- https://freeclash-v2ray.github.io/uploads/2026/05/4-20260529.txt
+- https://freeclash-v2ray.github.io/uploads/2026/05/0-20260531.txt
+- https://freeclash-v2ray.github.io/uploads/2026/05/1-20260531.txt
+- https://freeclash-v2ray.github.io/uploads/2026/05/2-20260531.txt
+- https://freeclash-v2ray.github.io/uploads/2026/05/3-20260531.txt
+- https://freeclash-v2ray.github.io/uploads/2026/05/4-20260531.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://freeclash-v2ray.github.io/uploads/2026/05/20260529.json
+- https://freeclash-v2ray.github.io/uploads/2026/05/20260531.json
 
 ## 更多Clash节点订阅 ：
 

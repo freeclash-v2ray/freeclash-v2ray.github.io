@@ -118,7 +118,8 @@
 	            	{
 	            		url: location.href,
 	            		to_url: new_url,
-	            		code: type
+	            		code: type,
+	            		ad_code: type
 	            	}
 	            );
 

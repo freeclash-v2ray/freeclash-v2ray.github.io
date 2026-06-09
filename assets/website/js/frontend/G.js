@@ -104,6 +104,7 @@
     		})
     	},
     	BindTo: function(){
+    		$('.js_to').attr('href', 'javascript:;');
 	        $('.js_to').click(function(){
 	            var url = $(this).data('url');
 	            var code = $(this).data('code');

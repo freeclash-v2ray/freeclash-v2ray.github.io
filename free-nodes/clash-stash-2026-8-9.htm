@@ -389,9 +389,9 @@ systemctl status v2ray
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 的节点分类功能有哪些好处？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 支持 Trojan 吗？</h5></div>
     <div class="panel-body">
-        节点分类可以按地区、延迟或用途分组，结合策略组实现自动分流。这样可以快速选择最佳节点，管理大量节点更加高效，同时提升访问速度和稳定性。<hr />    </div>
+        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Mellow 的 TUN 模式与系统代理有何区别？</h5></div>
@@ -399,9 +399,29 @@ systemctl status v2ray
         TUN 模式直接拦截 IP 层流量，实现全局代理，而系统代理通常仅影响支持代理的应用。TUN 更适合游戏、视频或全局科学上网场景，确保所有流量经过代理节点。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 如何自动切换最优节点？</h5></div>
+    <div class="panel-body">
+        PassWall2 会定期测试节点延迟和丢包率，并结合策略组自动切换到最优节点。无需手动干预即可保证网页、视频和游戏流量高速稳定访问，优化整体网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 是什么软件？</h5></div>
     <div class="panel-body">
         PassWall2 是一个运行在 OpenWRT 路由器上的插件，用于代理流量分流和节点管理。它支持多种协议，包括 V2Ray、Trojan、SSR 等。通过 Web 界面，用户可以灵活设置不同设备走不同代理，适合家庭或小型局域网使用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 的 Rule Provider 自动更新规则如何操作？</h5></div>
+    <div class="panel-body">
+        Rule Provider 可以通过远程 URL 自动下载规则和节点，定期更新无需手动操作。结合策略组使用，可保持节点和分流规则最新，提高访问速度和网络可用性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 的多策略组能带来什么优势？</h5></div>
+    <div class="panel-body">
+        多策略组可将节点按用途或地域分类，结合路由规则实现精准分流。用户无需频繁切换节点即可自动使用最佳线路，提高网络访问效率和稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan 协议支持 UDP 吗？</h5></div>
+    <div class="panel-body">
+        支持。Trojan 在最新版本中已支持 UDP 转发，能够满足游戏、视频会议等实时性需求较高的应用场景，性能和兼容性都有明显提升。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>SSR 的混淆方式如何选择最合适？</h5></div>
@@ -414,29 +434,9 @@ systemctl status v2ray
         支持。Surfboard 可定期测速节点延迟，并结合策略组自动选择延迟最低的节点。这样用户无需手动切换节点即可保持高速访问，提高网络体验和稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan 协议支持 UDP 吗？</h5></div>
+    <div class="panel-heading"><h5>Mihomo 的节点分类功能有哪些好处？</h5></div>
     <div class="panel-body">
-        支持。Trojan 在最新版本中已支持 UDP 转发，能够满足游戏、视频会议等实时性需求较高的应用场景，性能和兼容性都有明显提升。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 支持 Trojan 吗？</h5></div>
-    <div class="panel-body">
-        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 如何自动切换最优节点？</h5></div>
-    <div class="panel-body">
-        PassWall2 会定期测试节点延迟和丢包率，并结合策略组自动切换到最优节点。无需手动干预即可保证网页、视频和游戏流量高速稳定访问，优化整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的 Rule Provider 自动更新规则如何操作？</h5></div>
-    <div class="panel-body">
-        Rule Provider 可以通过远程 URL 自动下载规则和节点，定期更新无需手动操作。结合策略组使用，可保持节点和分流规则最新，提高访问速度和网络可用性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 的多策略组能带来什么优势？</h5></div>
-    <div class="panel-body">
-        多策略组可将节点按用途或地域分类，结合路由规则实现精准分流。用户无需频繁切换节点即可自动使用最佳线路，提高网络访问效率和稳定性。    </div>
+        节点分类可以按地区、延迟或用途分组，结合策略组实现自动分流。这样可以快速选择最佳节点，管理大量节点更加高效，同时提升访问速度和稳定性。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -484,16 +484,16 @@ systemctl status v2ray
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/news/article-256000.htm" title="突破网络限制的利器：大机场v2rayng全面使用指南与深度解析">突破网络限制的利器：大机场v2rayng全面使用指南与深度解析</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-29-clash-verge-rev-github.htm" title="Clash/V2ray免费节点 | 6月29日20.7M/S|免费V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 6月29日20.7M/S|免费V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-18-clash-stash-node.htm" title="Clash/V2ray免费节点 | 6月18日21.9M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 6月18日21.9M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-25-clash-node-github.htm" title="Clash/V2ray免费节点 | 6月25日18.2M/S|免费Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 6月25日18.2M/S|免费Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-14-clash-verge-rev-node-share.htm" title="Clash/V2ray免费节点 | 8月14日18.8M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月14日18.8M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-25-clash-v2ray-ss-ssr.htm" title="Clash/V2ray免费节点 | 7月25日21.7M/S|免费Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月25日21.7M/S|免费Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-10-clash-verge-rev-nodes.htm" title="Clash/V2ray免费节点 | 8月10日18.2M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月10日18.2M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-23-clash-verge-rev-node.htm" title="Clash/V2ray免费节点 | 7月23日19.5M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月23日19.5M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-13.htm" title="Clash/V2ray免费节点 | 8月13日19.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月13日19.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，安卓机场梯子</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-4-clash-meta-github.htm" title="Clash/V2ray免费节点 | 8月4日22.4M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月4日22.4M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-26-clash-verge-rev-node-share.htm" title="Clash/V2ray免费节点 | 6月26日22.5M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点/Trojan节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 6月26日22.5M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点/Trojan节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-21-clash-verge-rev-node.htm" title="Clash/V2ray免费节点 | 7月21日20.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/Shadowrocket节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月21日20.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/Shadowrocket节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-4-clash-verge-rev-node-share.htm" title="Clash/V2ray免费节点 | 7月4日19.1M/S|免费Clash节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月4日19.1M/S|免费Clash节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-30-free-node-subscribe.htm" title="Clash/V2ray免费节点 | 7月30日19.7M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Trojan节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月30日19.7M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Trojan节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-windows-2026-8-7.htm" title="Clash/V2ray免费节点 | 8月7日21.2M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月7日21.2M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，安卓机场梯子</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-7-27-clash-verge-rev-node.htm" title="Clash/V2ray免费节点 | 7月27日21.1M/S|免费V2ray节点/Shadowrocket节点/Trojan节点/SSR节点/Clash节点/Singbox节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月27日21.1M/S|免费V2ray节点/Shadowrocket节点/Trojan节点/SSR节点/Clash节点/Singbox节点节点推荐，安卓机场梯子</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-6-clash-verge-rev-node-github.htm" title="Clash/V2ray免费节点 | 7月6日20.1M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 7月6日20.1M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，安卓机场梯子</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-8-9.htm" title="Clash/V2ray免费节点 | 8月9日20.9M/S|免费Trojan节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，安卓机场梯子">Clash/V2ray免费节点 | 8月9日20.9M/S|免费Trojan节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，安卓机场梯子</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -505,13 +505,10 @@ systemctl status v2ray
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">18</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">31</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
-            </li>
-                        <li class="py-2">
-                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2026-06/" title="2026-06 归档">2026-06</a></h4>
+                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
             </li>
                     </ul>
     </div>
